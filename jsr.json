@@ -1,0 +1,17 @@
+{
+  "name": "@bounded-systems/seam-check",
+  "version": "0.1.0",
+  "exports": "./src/index.ts",
+  "runtimeCompat": {
+    "node": true,
+    "deno": true,
+    "bun": true,
+    "browser": false
+  },
+  "publish": {
+    "exclude": [
+      "**/__tests__/**",
+      "dist/**"
+    ]
+  }
+}
